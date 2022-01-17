@@ -5,7 +5,6 @@ import pygame
 import sdl2.ext
 import numpy as np
 from skimage.measure import ransac
-from helpers import add_ones, poseRt, fundamentalToRt, normalize, EssentialMatrixTransform, myjet
 from skimage.transform import FundamentalMatrixTransform
 
 class Extractor(object):
